@@ -175,16 +175,17 @@
     background-position: center; 
     background-repeat: no-repeat;
 }
-.bg-gradient{
+.bg-gradient {
     background-image: 
-      linear-gradient(#ffff, #f0bd65), 
-      url(/images/bg.png); 
+        linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(247, 162, 5, 0.2)), 
+        url('/images/bg.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     padding: 50px 0; 
-    color: white;
+    
 }
+
 
 
 .news-section {
