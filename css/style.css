@@ -11,7 +11,7 @@
   font-style: normal;
 }
 .body-style{
-    margin: auto 100px;
+    margin: auto 5%;
 }
 .display-flex{
     display: flex;
@@ -79,7 +79,11 @@
 
 }
 
-
+.burger-style{
+    display: none;
+    max-width: 70px;
+    max-height: 70px;
+}
 
 
 .card-class-type {
@@ -408,11 +412,11 @@
         }
         .banner-text{
             font-weight: 600px;
-            font-size: 20px;
+            font-size: 50px;
             text-align: center; }
 
             .banner-para{
-                font-size: 15px;
+                font-size: 20px;
                 text-align: center;
             }
             .btn-enroll {
@@ -445,7 +449,7 @@
                 flex-direction: column-reverse;
                 padding: 0px;
                 display: block;
-                padding-top: 5px;
+                padding-top: 20px;
                 padding-left: 3px;
                
                 
@@ -460,6 +464,9 @@
               }
               .li-footer-style{
                 margin: 0px;
+              }
+              .burger-style{
+                display: inline;
               }
 
 
