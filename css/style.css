@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+
+.quicksand-fonts{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.body-style{
+    margin: auto 100px;
+}
+.display-flex{
+    display: flex;
+}
+
+.navbar-style{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+.order-style{
+    text-decoration: none;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.contact-btn{
+    border-radius: 12px;
+    padding: 20px 50px;
+    background-color: #FEA301;
+    color: white;
+    border: none;
+
+}
+
+.btn-enroll{
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 30px ;
+}
+.banner-section{
+    justify-content: space-between;
+}
+.upper-banner{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+
+    
+}
+
+.banner-style{
+    align-items: center;
+}
+.banner-text{
+    font-weight: 900px;
+    font-size: 56px;
+}
+.banner-para{
+    font-size: 20px;
+}
+
+.banner-section{
+
+}
+
+
+
+
+.card-class-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    padding: 15px;
+     
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-left: 20px;
+    
+}
+
+.card-radient-1{
+    background: linear-gradient(135deg, #DEF5FF, #ffffff);
+}
+
+.card-radient-2{
+    background: linear-gradient(135deg, #FFF4DC, #fdfdfd);
+}
+
+.card-radient-3{
+    background: linear-gradient(135deg, #F2E8FF, #ffffff);
+}
+
+
+
+
+
+.card-class-type img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px 8px 0 0; 
+}
+
+.card-class-type h3 {
+    margin: 10px 0;
+}
+
+.card-class-type p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.card-class-type h5 {
+    margin-top: 10px;
+    
+    
+}
+
+
+
+
+.text-center{
+    text-align: center;
+}
+
+.btn-arrow{
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    
+    background-color: orange; 
+    color: white; 
+    border: none; 
+    font-size: 16px; 
+    padding: 0; 
+    margin-left: 10px;
+
+}
+
+.arrow-style-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+
+
+
+
+.text-orange{
+    color:#FEA301 ;
+}
+
+.text-skyblue{
+    color: #01ACFD;
+}
+
+.text-cyan{
+    color: #05D4DF;
+}
+
+.text-blue{
+    color: #5D58EF;
+}
+.list-style{
+    font-size: large;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .order-style, .contact-btn, .school-style {
+        display: none ;}
+        .nav-style-border{
+            padding-bottom: 5px;
+            border-bottom: 1px solid #FEA301;
+        }
+
+        .banner-style, .banner-section{
+            flex-direction: column-reverse;
+        }
+        .banner-text{
+            font-weight: 600px;
+            font-size: 20px;
+            text-align: center; }
+
+            .banner-para{
+                font-size: 15px;
+                text-align: center;
+            }
+            .btn-enroll {
+                display: block; 
+                margin: 20px auto; 
+                text-align: center; 
+            }
+            .card-class-type{
+                margin-top: 10px;
+            }
+            .arrow-style-btn{
+                display: none;
+            }
+
+
+}
