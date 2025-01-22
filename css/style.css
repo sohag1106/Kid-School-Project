@@ -171,11 +171,14 @@
 
 .bg-image1{
     background-image: url(/images/bg.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 .bg-gradient{
     background-image: 
-      linear-gradient(#ffff, #FEA301), 
-      url('/images/bg.png'); 
+      linear-gradient(#ffff, #f0bd65), 
+      url(/images/bg.png); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
